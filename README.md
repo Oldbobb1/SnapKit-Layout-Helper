@@ -23,7 +23,7 @@ class ViewController: UIViewController {
         
         view.addSubview(myView)
         
-        LayoutConstraints.applyLayoutConstraints(myView, view: self.view, topOffset: 20, leadingOffset: 15) { make in
+        LayoutConstraints.applyLayoutConstraints(myView, view: view, topOffset: 20, leadingOffset: 15) { make in
             make.height.equalTo(100)
             make.width.equalTo(200)
         }
