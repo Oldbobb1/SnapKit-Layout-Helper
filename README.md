@@ -31,7 +31,7 @@ class ViewController: UIViewController {
 }
 ```
 
-##This will apply the following constraints to myView:
+**This will apply the following constraints to myView**:
 * 20pt top offset relative to the safe area of the superview.
 * 15pt leading offset.
 * Additional custom constraints for height and width.
