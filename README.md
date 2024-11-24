@@ -8,10 +8,10 @@ A simple helper struct to apply flexible layout constraints using [SnapKit](http
 * 💡 Quick to integrate into any SnapKit-based project.
 
 # 🔧 Installation 
-//To get started, simply add SnapKit to your project via CocoaPods, or Swift Package Manager. Then, you can use this layout helper in your project.
+To get started, simply add SnapKit to your project via CocoaPods, or Swift Package Manager. Then, you can use this layout helper in your project.
 
 # 📝 Example Usage
-//Here’s a simple example of how to use LayoutConstraints:
+Here’s a simple example of how to use LayoutConstraints:
 ```swift
 import SnapKit
 
