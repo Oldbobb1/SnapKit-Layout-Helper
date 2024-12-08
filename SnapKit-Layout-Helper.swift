@@ -4,7 +4,6 @@ import SnapKit
 //For detailed documentation, see file Documentation - SnapKit Layout Helper.md
 
 struct LayoutConstraints {
-
     static func applyLayoutConstraints(
         _ element: UIView,
         view: UIView,
