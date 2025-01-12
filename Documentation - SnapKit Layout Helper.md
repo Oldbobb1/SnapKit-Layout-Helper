@@ -14,7 +14,7 @@ class ViewController: UIViewController {
         
         view.addSubview(myView)
         
-        LayoutConstraints.applyLayoutConstraints(myView, view: self.view, topOffset: 20, leadingOffset: 15) { make in
+        LayoutConstraints.applyLayoutConstraints(myView, view: view, topOffset: 20, leadingOffset: 15) { make in
             make.height.equalTo(100)
             make.width.equalTo(200)
         }
@@ -60,6 +60,6 @@ Type: [((ConstraintMaker) -> Void)]
 Constraints for adding custom constraints.
 
 # Notes
-1.If any of the indents (topOffset, leadingOffset, trailingOffset, bottomOffset) are not specified, the corresponding constraint will not be added.
-2.Make sure the element is added to the view hierarchy (view.addSubview) before calling the method.
-3.You can add any custom constraints via additionalConstraints closures.
+* 1.If any of the indents (topOffset, leadingOffset, trailingOffset, bottomOffset) are not specified, the corresponding constraint will not be added.
+* 2.Make sure the element is added to the view hierarchy (view.addSubview) before calling the method.
+* 3.You can add any custom constraints via additionalConstraints closures.
