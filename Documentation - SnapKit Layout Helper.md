@@ -60,6 +60,6 @@ Type: [((ConstraintMaker) -> Void)]
 Constraints for adding custom constraints.
 
 # Notes
-* 1.If any of the indents (topOffset, leadingOffset, trailingOffset, bottomOffset) are not specified, the corresponding constraint will not be added.
-* 2.Make sure the element is added to the view hierarchy (view.addSubview) before calling the method.
-* 3.You can add any custom constraints via additionalConstraints closures.
+* If any of the indents (topOffset, leadingOffset, trailingOffset, bottomOffset) are not specified, the corresponding constraint will not be added.
+* Make sure the element is added to the view hierarchy (view.addSubview) before calling the method.
+* You can add any custom constraints via additionalConstraints closures.
